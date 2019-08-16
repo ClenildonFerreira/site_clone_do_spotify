@@ -71,6 +71,27 @@ nav.navbar-transparente {
 	vertical-align: middle;
 }
 
+/* -- Botoes -- */
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 39px;
+    margin: 0px 18px;
+    margin-top: 16px;
+    transition: background 0.4s, color 0.4s;
+    background: #1ED760;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+}
+
+.btn-custom:hover {
+	background-color: #1DB954;
+	color: white;
+}
+
 
 /* ========================= Tipografia ======================== */
 
@@ -84,5 +105,6 @@ h1 {
 
 h4{
 	font-size: 18px;
-    font-weight: 400;
+    font-weight: 400, bold;
+
 }
