@@ -5,8 +5,18 @@
 */
 /* ========================= Layout ======================== */
 
+html, body, .capa {
+	height: 100%;
+}
+
 body{
-	background-color: blue;
+	background: url('../img/hero-burst.svg'),
+				url('../img/ruido.png'),
+				linear-gradient(70deg,#ff4162,#7c26f1);
+	background-attachment: fixed;
+	font-family: Circular, Helvetica, Arial, sans-serif;
+	overflow-x: hidden;
+
 }
 
 /*-- Barra de Navegação --*/
@@ -37,9 +47,42 @@ nav.navbar-transparente {
 }
 
 .navbar-inverse .navbar-nav>li>a, footer .nav a {
-	color: #C1C3C6;
+	color: #f2f2f2;
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover {
 	color: #1DB954;
 	background: none;
+}
+
+/* -- Imagem de capa -- */
+
+.capa {
+	display: table;
+	width: 100%;
+}
+
+.texto-capa {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+/* ========================= Tipografia ======================== */
+
+h1 {
+	font-size: 68px;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1.15;
+    margin-top: 0;
+}
+
+h4{
+	font-size: 18px;
+    font-weight: 400;
+}
